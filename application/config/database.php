@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mcconkey-sql',
+	'hostname' => ':/cloudsql/mcconkey-sql:cinematweet',
 	'username' => 'cinematweet',
 	'password' => '51171eXf!',
 	'database' => 'cinematweet',
