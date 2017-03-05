@@ -1,4 +1,3 @@
-application: cinematweet
 version: 1
 runtime: php55
 api_version: 1
