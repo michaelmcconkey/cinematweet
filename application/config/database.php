@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'È1:4860:4864:1:5423:42ea:2861:342e',
+	'hostname' => '2001:4860:4864:1:5423:42ea:2861:342e',
 	'username' => 'cinematweet',
 	'password' => '51171eXf!',
 	'database' => 'cinematweet',
