@@ -1,7 +1,12 @@
 
-runtime: php55
+runtime: php
 api_version: 1
 
 handlers:
 - url: /.*
   script: index.php
+
+env_variables:
+  # Replace project, instance, database, user and password with the values obtained
+  # when configuring your Cloud SQL instance.
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/hazel-champion-87111:mcconkey-sql;dbname=DATABASE
