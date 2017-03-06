@@ -74,8 +74,8 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => ':/cloudsql/mcconkey-sql:cinematweet',
+	'dsn'	=> 'mysql:unix_socket=/cloudsql/hazel-champion-87111;dbname=cinematweet',
+	'hostname' => '',
 	'username' => 'cinematweet',
 	'password' => '51171eXf!',
 	'database' => 'cinematweet',
