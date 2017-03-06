@@ -74,10 +74,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> getenv('MYSQL_DSN'),
-	'hostname' => '',
-	'username' => 'cinematweet',
-	'password' => '51171eXf!',
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '!',
 	'database' => 'cinematweet',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -93,4 +93,5 @@ $db['default'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
+	'socket' => '/cloudsql/hazel-champion-87111:mcconkey-sql’
 );
