@@ -9,4 +9,4 @@ handlers:
 env_variables:
   # Replace project, instance, database, user and password with the values obtained
   # when configuring your Cloud SQL instance.
-  MYSQL_DSN: mysql:unix_socket=/cloudsql/hazel-champion-87111:mcconkey-sql;dbname=cinematweet
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/hazel-champion-87111:us-central1-a:mcconkey-sql;dbname=cinematweet
