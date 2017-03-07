@@ -92,6 +92,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE,
 	'socket' => '/cloudsql/hazel-champion-87111:mcconkey-sql'
 );
